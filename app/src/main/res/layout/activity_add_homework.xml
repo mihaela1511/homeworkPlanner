@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddHomeworkActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/text_view_homework_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="60dp"
+                    android:gravity="start"
+                    android:text="@string/homework_name"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/homework_name"
+                    android:layout_width="353dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="80dp"
+                    android:ems="10"
+                    android:inputType="text" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout01"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/text_view_discipline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="start"
+                    android:text="@string/discipline"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/discipline"
+                    android:layout_width="353dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:ems="10"
+                    android:inputType="text" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout02"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/text_view_teacher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="start"
+                    android:text="@string/teacher"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/teacher"
+                    android:layout_width="352dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:ems="10"
+                    android:inputType="text" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/new_homework_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="27dp"
+                android:text="@string/new_homework_title" />
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout03"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/text_view_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="start"
+                    android:text="@string/description"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/description"
+                    android:layout_width="355dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:ems="10"
+                    android:inputType="text" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout04"
+                android:layout_margin="10dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/teal_700"
+                    android:onClick="showDatePickerDialog"
+                    android:text="@string/homework_date" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout05"
+                android:layout_margin="10dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/teal_700"
+                    android:onClick="showTimePickerDialog"
+                    android:text="@string/homework_time" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RelativeLayout06"
+                android:layout_margin="10dp">
+
+                <Button
+                    android:id="@+id/button_add"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/green"
+                    android:onClick="addHomework"
+                    android:textSize="10sp"
+                    android:text="@string/add_button" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/RelativeLayout08"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/RelativeLayout07"
+                android:layout_below="@+id/RelativeLayout06"
+                android:layout_margin="10dp">
+                <Button
+                    android:id="@+id/button_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:backgroundTint="@color/red"
+                    android:onClick="cancelHomework"
+                    android:textSize="10sp"
+                    android:text="@string/cancel_button" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

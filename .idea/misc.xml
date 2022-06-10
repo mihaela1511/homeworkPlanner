@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/drawable-v24/add.xml" value="0.2985" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/drawable-v24/board.xml" value="0.2985" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2985" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/drawable-v24/maps.xml" value="0.2985" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/drawable-v24/planner.xml" value="0.196" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/drawable-v24/status.xml" value="0.2985" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2985" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2985" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2985" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/drawable/planner.xml" value="0.196" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/layout/activity_add_homework.xml" value="0.25" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/layout/activity_menu.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/layout/app_bar_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/layout/card_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/layout/content_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/layout/fragment_gallery.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/layout/fragment_home.xml" value="0.2225201072386059" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/layout/fragment_slideshow.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/layout/item_homework.xml" value="0.1" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/layout/nav_header_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/layout/search_menu.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/menu/activity_menu_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/menu/menu.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2985" />
+        <entry key="..\:/Users/Adrian/AndroidStudioProjects/Homework_Planner/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2985" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

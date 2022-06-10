@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">HomeworkPlanner</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Homework Planner</string>
+    <string name="nav_header_subtitle">Manage your deadlines</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_board">Board</string>
+    <string name="menu_status">Gallery</string>
+    <string name="menu_buildings">College buildings</string>
+
+    <string name="homework_name">Homework name</string>
+    <string name="discipline">Discipline</string>
+    <string name="teacher">Teacher</string>
+    <string name="new_homework_title">Add new homework</string>
+    <string name="description">Description</string>
+    <string name="homework_date">Deadline date</string>
+    <string name="homework_time">Deadline time</string>
+    <string name="add_button">Add</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="share_button">Share</string>
+</resources>
